@@ -3,7 +3,6 @@ import React from 'react';
 const WhyChooseUs: React.FC = () => {
     return (
         <section className="relative py-24 bg-white overflow-hidden">
-            {/* Background Grid - Large Rounded Rectangles */}
             <div className="absolute inset-0 pointer-events-none opacity-50">
                 <div className="absolute top-0 right-0 w-64 h-64 bg-gray-50 rounded-3xl transform translate-x-1/3 -translate-y-1/3" />
                 <div className="absolute top-1/4 right-10 w-48 h-48 bg-gray-50 rounded-3xl" />
@@ -11,7 +10,6 @@ const WhyChooseUs: React.FC = () => {
                 <div className="absolute bottom-1/4 left-10 w-56 h-56 bg-gray-50 rounded-3xl" />
                 <div className="absolute top-10 left-0 w-40 h-40 bg-gray-50 rounded-3xl transform -translate-x-1/2" />
 
-                {/* Faint Grid Pattern overlay for texture if needed, mimicking the provided image's subtle structure */}
                 <div className="absolute top-20 right-20 w-32 h-32 bg-gray-100/50 rounded-2xl" />
                 <div className="absolute bottom-20 left-1/3 w-40 h-40 bg-gray-100/50 rounded-2xl" />
             </div>

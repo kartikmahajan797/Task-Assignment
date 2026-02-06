@@ -36,12 +36,7 @@ const VideoSection: React.FC = () => {
                                 </svg>
                             </button>
 
-                            {/* Optional: Design selection box effect from screenshot if desired, 
-                  but standard design usually implies clean button. 
-                  The screenshot showed a thin red line around the button, 
-                  it looked like a selection state or a specific styling detail.
-                  I'll add a subtle red ring or focus ring to match the 'square' theme.
-              */}
+                          
                             <div className="absolute -inset-3 border border-red-500/30 rounded-3xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </div>
                     </div>
