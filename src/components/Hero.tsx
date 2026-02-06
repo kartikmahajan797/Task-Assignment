@@ -100,7 +100,6 @@
 
 // export default Hero;
 
-import React from 'react';
 import boxImage from '../assets/box.jpg';
 
 const Hero = () => {
